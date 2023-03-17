@@ -449,7 +449,7 @@ importers:
       cross-env: 7.0.3
       nodemon: 2.0.15
       prettier: 2.8.4
-      ts-jest: 27.1.4_cnngzrja2umb46xxazlucyx2qu
+      ts-jest: 27.1.4_dwaltnofjt727p7olboxmdxrie
       ts-loader: 9.4.2_hhrrucqyg4eysmfpujvov2ym5u
       ts-node: 10.9.1_shievopl57bw2yyflx5da526ye
       tsconfig-paths: 3.14.1
@@ -553,7 +553,7 @@ importers:
       react-flow-renderer: ^10.2.2
       react-frame-component: ^5.2.3
       react-helmet-async: ^1.3.0
-      react-hook-form: 7.34.0
+      react-hook-form: 7.43.5
       react-is: ^18.2.0
       react-password-strength-bar: ^0.4.1
       react-router-dom: ^6.2.2
@@ -584,7 +584,7 @@ importers:
       '@emotion/styled': 11.8.1_nvzpjvd4u4t6xef4ctbu72flfm
       '@handlebars/parser': 2.1.0
       '@hookform/devtools': 4.3.0_2dpw4q6g74ga44koer2oej4sqy
-      '@hookform/resolvers': 2.9.1_react-hook-form@7.34.0
+      '@hookform/resolvers': 2.9.1_react-hook-form@7.43.5
       '@mantine/core': 5.8.4_7yfpip2uxrysi7ib5qzo3w6tfe
       '@mantine/dropzone': 5.9.4_6dsdowmbm2gsh4yuqnetmaffme
       '@mantine/form': 5.10.4_react@17.0.2
@@ -643,7 +643,7 @@ importers:
       react-flow-renderer: 10.3.7_sfoxds7t5ydpegc3knd667wn6m
       react-frame-component: 5.2.3_oxfzelaz5ynxsop2v2nu2h2m64
       react-helmet-async: 1.3.0_sfoxds7t5ydpegc3knd667wn6m
-      react-hook-form: 7.34.0_react@17.0.2
+      react-hook-form: 7.43.5_react@17.0.2
       react-is: 18.2.0
       react-password-strength-bar: 0.4.1_sfoxds7t5ydpegc3knd667wn6m
       react-router-dom: 6.2.2_sfoxds7t5ydpegc3knd667wn6m
@@ -17778,12 +17778,12 @@ packages:
       - '@types/react'
     dev: false
 
-  /@hookform/resolvers/2.9.1_react-hook-form@7.34.0:
+  /@hookform/resolvers/2.9.1_react-hook-form@7.43.5:
     resolution: {integrity: sha512-80lyFFcExEB7A09PFnl8k7A3obQyDF6MyO/FThtwetk+MTedYMs08Aqf7mgWnOawFGyz5QF+TZXJSYiIZW2tEg==}
     peerDependencies:
       react-hook-form: ^7.0.0
     dependencies:
-      react-hook-form: 7.34.0_react@17.0.2
+      react-hook-form: 7.43.5_react@17.0.2
     dev: false
 
   /@humanwhocodes/config-array/0.11.8:
@@ -42466,7 +42466,7 @@ packages:
       pretty-format: 27.5.1
       slash: 3.0.0
       strip-json-comments: 3.1.1
-      ts-node: 10.9.1_shievopl57bw2yyflx5da526ye
+      ts-node: 10.9.1_263kxb4upkllfszsccwxso4xq4
     transitivePeerDependencies:
       - bufferutil
       - canvas
@@ -50875,8 +50875,8 @@ packages:
       react-fast-compare: 3.2.0
       shallowequal: 1.1.0
 
-  /react-hook-form/7.34.0_react@17.0.2:
-    resolution: {integrity: sha512-s0/TJ09NVlEk2JPp3yit1WnMuPNBXFmUKEQPulgDi9pYBw/ZmmAFHe6AXWq73Y+kp8ye4OcMf0Jv+i/qLPektg==}
+  /react-hook-form/7.43.5_react@17.0.2:
+    resolution: {integrity: sha512-YcaXhuFHoOPipu5pC7ckxrLrialiOcU91pKu8P+isAcXZyMgByUK9PkI9j5fENO4+6XU5PwWXRGMIFlk9u9UBQ==}
     engines: {node: '>=12.22.0'}
     peerDependencies:
       react: ^16.8.0 || ^17 || ^18
@@ -55364,7 +55364,7 @@ packages:
       tslib: 1.14.1
     dev: true
 
-  /ts-jest/27.1.4_cnngzrja2umb46xxazlucyx2qu:
+  /ts-jest/27.1.4_dwaltnofjt727p7olboxmdxrie:
     resolution: {integrity: sha512-qjkZlVPWVctAezwsOD1OPzbZ+k7zA5z3oxII4dGdZo5ggX/PL7kvwTM0pXTr10fAtbiVpJaL3bWd502zAhpgSQ==}
     engines: {node: ^10.13.0 || ^12.13.0 || ^14.15.0 || >=15.0.0}
     hasBin: true
@@ -55385,6 +55385,7 @@ packages:
       esbuild:
         optional: true
     dependencies:
+      '@babel/core': 7.20.12
       bs-logger: 0.2.6
       fast-json-stable-stringify: 2.1.0
       jest: 27.5.1_ts-node@10.9.1
